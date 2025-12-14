@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nesterov</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <i class="fas fa-guitar"></i> Nesterov
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#about">Обо мне</a></li>
+                    <li><a href="#music">Музыка</a></li>
+                    <li><a href="#achievements">Достижения</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Nesterov</h1>
+            <p class="tagline">Музыкант, композитор, визионер</p>
+            <p>В 22 года покорил мировые чарты, создавая музыку, которая затрагивает души миллионов. Живу у реки, творю под звуки природы и классических мелодий.</p>
+            <a href="#about" class="btn">Узнать больше</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">О музыканте</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Привет, я Nesterov</h3>
+                    <p>Мне <span class="highlight">27 лет</span>, и уже 5 лет я наслаждаюсь успехом, который пришел ко мне в <span class="highlight">22 года</span> после выпуска моего дебютного альбома "Echoes of the River".</p>
+                    <p>Живу в большом загородном доме на берегу красивой реки, которая вдохновляет меня на создание новой музыки. Уединение с природой помогает мне сосредоточиться на творчестве.</p>
+                    <p>Мой годовой заработок составляет около <span class="highlight">$2.5 миллионов</span>, что позволяет мне не только жить комфортно, но и поддерживать молодых талантливых музыкантов через свой благотворительный фонд.</p>
+                    
+                    <div class="stats">
+                        <div class="stat-item">
+                            <i class="fas fa-music"></i>
+                            <div class="stat-number">5</div>
+                            <div class="stat-label">Альбомов</div>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-trophy"></i>
+                            <div class="stat-number">18</div>
+                            <div class="stat-label">Наград</div>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-globe"></i>
+                            <div class="stat-number">47</div>
+                            <div class="stat-label">Стран с концертами</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="music" class="music-taste">
+        <div class="container">
+            <h2 class="section-title">Музыкальные предпочтения</h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto 30px;">Моя музыка - это сплав рок-энергии и классической глубины. Я черпаю вдохновение в разных жанрах, создавая уникальный звук.</p>
+            
+            <div class="music-cards">
+                <div class="music-card" id="rock-card">
+                    <i class="fas fa-guitar"></i>
+                    <h3>Рок</h3>
+                    <p>От классического рока 70-х до современного альтернативного звучания. Мои главные вдохновители: Led Zeppelin, Muse и The Strokes.</p>
+                </div>
+                <div class="music-card" id="classic-card">
+                    <i class="fas fa-violin"></i>
+                    <h3>Классика</h3>
+                    <p>Чайковский, Рахманинов и Шопен - композиторы, чьи работы я часто слушаю перед написанием новых композиций.</p>
+                </div>
+                <div class="music-card" id="fusion-card">
+                    <i class="fas fa-sliders-h"></i>
+                    <h3>Фьюжн</h3>
+                    <p>Создаю музыку на стыке жанров, сочетая электронные элементы с живыми инструментами и оркестровыми аранжировками.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2 class="section-title">Достижения</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="year">2020</div>
+                    <h3>Прорыв года</h3>
+                    <p>Премия Global Music Awards за дебютный альбом "Echoes of the River"</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="year">2021</div>
+                    <h3>Мировой тур</h3>
+                    <p>47 концертов в 30 странах, собравшие более 500 000 зрителей</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="year">2022</div>
+                    <h3>Саундтрек к фильму</h3>
+                    <p>Музыка к голливудскому фильму "River of Dreams", номинированному на Оскар</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="year">2023</div>
+                    <h3>Собственная студия</h3>
+                    <p>Открытие студии звукозаписи "RiverSide Records" для поддержки молодых талантов</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="year">2024</div>
+                    <h3>Благотворительный фонд</h3>
+                    <p>Создание фонда поддержки музыкального образования в малообеспеченных регионах</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="year">2025</div>
+                    <h3>Коллаборация с легендами</h3>
+                    <p>Совместный альбом с известными рок- и классическими музыкантами</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Связаться со мной</h2>
+            <p>Для сотрудничества, приглашений на выступления или просто для общения</p>
+            
+            <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-spotify"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-telegram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Nesterov. Все права защищены.</p>
+            <p>Этот сайт является визитной карточкой музыканта и не используется для коммерческих целей.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Интерактивные карточки с музыкой
+        const rockCard = document.getElementById('rock-card');
+        const classicCard = document.getElementById('classic-card');
+        const fusionCard = document.getElementById('fusion-card');
+        
+        const musicCards = [rockCard, classicCard, fusionCard];
+        const originalColors = ['#1a1a2e', '#1a1a2e', '#1a1a2e'];
+        
+        musicCards.forEach((card, index) => {
+            // Сохраняем оригинальный цвет
+            originalColors[index] = card.style.backgroundColor;
+            
+            card.addEventListener('mouseenter', () => {
+                card.style.transform = 'translateY(-20px) scale(1.05)';
+                card.style.backgroundColor = 'rgba(233, 69, 96, 0.1)';
+            });
+            
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = 'translateY(-15px)';
+                card.style.backgroundColor = originalColors[index];
+            });
+            
+            card.addEventListener('click', () => {
+                const titles = ['Рок-вдохновение', 'Классическое наследие', 'Фьюжн-эксперименты'];
+                alert(`Вы выбрали: ${titles[index]}. Nesterov часто говорит: "Это направление формирует основу моего творческого метода."`);
+            });
+        });
+        
+        // Плавная прокрутка для навигации
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                const targetSection = document.querySelector(targetId);
+                
+                window.scrollTo({
+                    top: targetSection.offsetTop - 80,
+                    behavior: 'smooth'
+                });
+            });
+        });
+        
+        // Анимация статистики при прокрутке
+        const statNumbers = document.querySelectorAll('.stat-number');
+        const statItems = document.querySelectorAll('.stat-item');
+        
+        function animateStats() {
+            statItems.forEach(item => {
+                const itemTop = item.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+                
+                if (itemTop < windowHeight - 100) {
+                    item.style.opacity = '1';
+                    item.style.transform = 'translateY(0)';
+                }
+            });
+            
+            statNumbers.forEach(stat => {
+                const finalValue = parseInt(stat.textContent);
+                let currentValue = 0;
+                const increment = finalValue / 50;
+                const timer = setInterval(() => {
+                    currentValue += increment;
+                    if (currentValue >= finalValue) {
+                        stat.textContent = finalValue;
+                        clearInterval(timer);
+                    } else {
+                        stat.textContent = Math.floor(currentValue);
+                    }
+                }, 30);
+            });
+        }
+        
+        // Запуск анимации статистики при загрузке
+        window.addEventListener('load', () => {
+            // Устанавливаем начальные стили для анимации
+            statItems.forEach(item => {
+                item.style.opacity = '0';
+                item.style.transform = 'translateY(20px)';
+                item.style.transition = 'opacity 0.5s, transform 0.5s';
+            });
+            
+            // Запускаем анимацию с задержкой
+            setTimeout(animateStats, 500);
+        });
+        
+        // Изменение заголовка при уходе со страницы
+        document.addEventListener('visibilitychange', function() {
+            if (document.hidden) {
+                document.title = "Вернитесь!";
+            } else {
+                document.title = "Nesterov";
+            }
+        });
+    </script>
+</body>
+</html>
